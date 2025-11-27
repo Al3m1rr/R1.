@@ -8,6 +8,8 @@ for i in range(nombreEtudiants):
     note = float(input("Note etudiant " + str(i) + " : "))
 
 
+
+
     while note < 0 or note > 20:
         print("Erreur : la note doit être comprise entre 0 et 20.")
         note = float(input("Note etudiant " + str(i) + " : "))

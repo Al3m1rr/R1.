@@ -8,6 +8,7 @@ else:
         mois = int(date[2:4])
         annee = int(date[4:8])
 
+
         if mois < 1 or mois > 12:
             print("Date invalide : le mois doit être compris entre 01 et 12.")
         else:

@@ -16,6 +16,7 @@ for i in range(n):
     val = int(input())
     v1.append(val)
 
+
 print("Saisie du second vecteur :")
 for i in range(n):
     print("v2[", i, "] =")
